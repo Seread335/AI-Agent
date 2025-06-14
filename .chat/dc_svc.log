@@ -1,0 +1,85 @@
+2025-06-07 19:24:48.956 | INFO     | uvicorn.server:_serve:82 - Started server process [6288]
+2025-06-07 19:24:48.957 | INFO     | uvicorn.lifespan.on:startup:48 - Waiting for application startup.
+2025-06-07 19:24:48.958 | INFO     | uvicorn.lifespan.on:startup:62 - Application startup complete.
+2025-06-07 19:24:48.959 | INFO     | uvicorn.server:_log_started_message:214 - Uvicorn running on http://0.0.0.0:50773 (Press CTRL+C to quit)
+2025-06-07 19:24:49.546 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 127.0.0.1:50797 - "GET /ping HTTP/1.1" 200
+2025-06-07 19:24:49.956 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 127.0.0.1:50799 - "POST /workflows/update HTTP/1.1" 200
+2025-06-07 19:24:50.539 | INFO     | devchat._service.route.workflows:update_custom_workflows:103 - Working in update custom workflows.
+2025-06-07 19:24:50.541 | INFO     | devchat._service.route.workflows:update_custom_workflows:109 - Read chat config file C:\Users\ADMIN\.chat\config.yml.
+2025-06-07 19:24:50.571 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 127.0.0.1:50816 - "POST /workflows/custom_update HTTP/1.1" 200
+2025-06-07 19:24:53.522 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 127.0.0.1:50870 - "GET /workflows/list HTTP/1.1" 200
+2025-06-07 19:24:53.542 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 127.0.0.1:50878 - "OPTIONS /workflows/update HTTP/1.1" 200
+2025-06-07 19:24:53.590 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 127.0.0.1:50878 - "POST /workflows/update HTTP/1.1" 200
+2025-06-07 19:25:03.168 | INFO     | uvicorn.server:_serve:82 - Started server process [19164]
+2025-06-07 19:25:03.169 | INFO     | uvicorn.lifespan.on:startup:48 - Waiting for application startup.
+2025-06-07 19:25:03.169 | INFO     | uvicorn.lifespan.on:startup:62 - Application startup complete.
+2025-06-07 19:25:03.171 | INFO     | uvicorn.server:_log_started_message:214 - Uvicorn running on http://0.0.0.0:50907 (Press CTRL+C to quit)
+2025-06-07 19:25:03.532 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 127.0.0.1:50911 - "GET /ping HTTP/1.1" 200
+2025-06-07 19:25:03.971 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 127.0.0.1:50935 - "POST /workflows/update HTTP/1.1" 200
+2025-06-07 19:25:04.096 | INFO     | devchat._service.route.workflows:update_custom_workflows:103 - Working in update custom workflows.
+2025-06-07 19:25:04.097 | INFO     | devchat._service.route.workflows:update_custom_workflows:109 - Read chat config file C:\Users\ADMIN\.chat\config.yml.
+2025-06-07 19:25:04.116 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 127.0.0.1:50940 - "POST /workflows/custom_update HTTP/1.1" 200
+2025-06-07 19:25:06.551 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 127.0.0.1:50981 - "GET /workflows/list HTTP/1.1" 200
+2025-06-07 19:25:06.611 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 127.0.0.1:50983 - "GET /workflows/config HTTP/1.1" 200
+2025-06-09 18:19:03.865 | INFO     | uvicorn.server:_serve:82 - Started server process [21024]
+2025-06-09 18:19:03.868 | INFO     | uvicorn.lifespan.on:startup:48 - Waiting for application startup.
+2025-06-09 18:19:03.872 | INFO     | uvicorn.lifespan.on:startup:62 - Application startup complete.
+2025-06-09 18:19:03.874 | INFO     | uvicorn.server:_log_started_message:214 - Uvicorn running on http://0.0.0.0:59038 (Press CTRL+C to quit)
+2025-06-09 18:19:06.601 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 127.0.0.1:59082 - "GET /ping HTTP/1.1" 200
+2025-06-09 18:19:06.784 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 127.0.0.1:59088 - "POST /workflows/update HTTP/1.1" 200
+2025-06-09 18:19:07.547 | INFO     | devchat._service.route.workflows:update_custom_workflows:103 - Working in update custom workflows.
+2025-06-09 18:19:07.548 | INFO     | devchat._service.route.workflows:update_custom_workflows:109 - Read chat config file C:\Users\ADMIN\.chat\config.yml.
+2025-06-09 18:19:07.570 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 127.0.0.1:59092 - "POST /workflows/custom_update HTTP/1.1" 200
+2025-06-09 18:19:09.607 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 127.0.0.1:59144 - "GET /workflows/list HTTP/1.1" 200
+2025-06-09 18:19:09.615 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 127.0.0.1:59155 - "GET /workflows/config HTTP/1.1" 200
+2025-06-09 18:19:09.647 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 127.0.0.1:59156 - "OPTIONS /workflows/update HTTP/1.1" 200
+2025-06-09 18:19:09.689 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 127.0.0.1:59156 - "POST /workflows/update HTTP/1.1" 200
+2025-06-09 18:19:09.715 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 127.0.0.1:59156 - "OPTIONS /workflows/custom_update HTTP/1.1" 200
+2025-06-09 18:19:09.718 | INFO     | devchat._service.route.workflows:update_custom_workflows:103 - Working in update custom workflows.
+2025-06-09 18:19:09.719 | INFO     | devchat._service.route.workflows:update_custom_workflows:109 - Read chat config file C:\Users\ADMIN\.chat\config.yml.
+2025-06-09 18:19:09.746 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 127.0.0.1:59156 - "POST /workflows/custom_update HTTP/1.1" 200
+2025-06-09 18:19:09.838 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 127.0.0.1:59163 - "GET /workflows/list HTTP/1.1" 200
+2025-06-09 18:19:09.861 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 127.0.0.1:59165 - "GET /workflows/config HTTP/1.1" 200
+2025-06-09 18:24:04.194 | INFO     | uvicorn.server:_serve:82 - Started server process [9284]
+2025-06-09 18:24:04.195 | INFO     | uvicorn.lifespan.on:startup:48 - Waiting for application startup.
+2025-06-09 18:24:04.195 | INFO     | uvicorn.lifespan.on:startup:62 - Application startup complete.
+2025-06-09 18:24:04.196 | INFO     | uvicorn.server:_log_started_message:214 - Uvicorn running on http://0.0.0.0:59404 (Press CTRL+C to quit)
+2025-06-09 18:24:04.562 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 127.0.0.1:59409 - "GET /ping HTTP/1.1" 200
+2025-06-09 18:24:05.854 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 127.0.0.1:59430 - "POST /workflows/update HTTP/1.1" 200
+2025-06-09 18:24:06.111 | INFO     | devchat._service.route.workflows:update_custom_workflows:103 - Working in update custom workflows.
+2025-06-09 18:24:06.112 | INFO     | devchat._service.route.workflows:update_custom_workflows:109 - Read chat config file C:\Users\ADMIN\.chat\config.yml.
+2025-06-09 18:24:06.144 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 127.0.0.1:59438 - "POST /workflows/custom_update HTTP/1.1" 200
+2025-06-09 18:24:08.958 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 127.0.0.1:59476 - "GET /workflows/list HTTP/1.1" 200
+2025-06-09 18:24:09.058 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 127.0.0.1:59480 - "GET /workflows/config HTTP/1.1" 200
+2025-06-10 20:14:24.818 | INFO     | uvicorn.server:_serve:82 - Started server process [12000]
+2025-06-10 20:14:24.820 | INFO     | uvicorn.lifespan.on:startup:48 - Waiting for application startup.
+2025-06-10 20:14:24.823 | INFO     | uvicorn.lifespan.on:startup:62 - Application startup complete.
+2025-06-10 20:14:24.826 | INFO     | uvicorn.server:_log_started_message:214 - Uvicorn running on http://0.0.0.0:51677 (Press CTRL+C to quit)
+2025-06-10 20:14:37.463 | INFO     | uvicorn.server:_serve:82 - Started server process [19944]
+2025-06-10 20:14:37.464 | INFO     | uvicorn.lifespan.on:startup:48 - Waiting for application startup.
+2025-06-10 20:14:37.465 | INFO     | uvicorn.lifespan.on:startup:62 - Application startup complete.
+2025-06-10 20:14:37.466 | INFO     | uvicorn.server:_log_started_message:214 - Uvicorn running on http://0.0.0.0:51777 (Press CTRL+C to quit)
+2025-06-10 20:14:38.102 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 127.0.0.1:51801 - "GET /ping HTTP/1.1" 200
+2025-06-10 20:14:38.255 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 127.0.0.1:51803 - "POST /workflows/update HTTP/1.1" 200
+2025-06-10 20:14:38.824 | INFO     | devchat._service.route.workflows:update_custom_workflows:103 - Working in update custom workflows.
+2025-06-10 20:14:38.825 | INFO     | devchat._service.route.workflows:update_custom_workflows:109 - Read chat config file C:\Users\ADMIN\.chat\config.yml.
+2025-06-10 20:14:38.858 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 127.0.0.1:51808 - "POST /workflows/custom_update HTTP/1.1" 200
+2025-06-10 20:14:52.198 | INFO     | uvicorn.server:_serve:82 - Started server process [17892]
+2025-06-10 20:14:52.198 | INFO     | uvicorn.lifespan.on:startup:48 - Waiting for application startup.
+2025-06-10 20:14:52.200 | INFO     | uvicorn.lifespan.on:startup:62 - Application startup complete.
+2025-06-10 20:14:52.200 | INFO     | uvicorn.server:_log_started_message:214 - Uvicorn running on http://0.0.0.0:51905 (Press CTRL+C to quit)
+2025-06-10 20:14:53.431 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 127.0.0.1:51941 - "GET /ping HTTP/1.1" 200
+2025-06-10 20:14:53.756 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 127.0.0.1:51945 - "POST /workflows/update HTTP/1.1" 200
+2025-06-10 20:14:53.850 | INFO     | devchat._service.route.workflows:update_custom_workflows:103 - Working in update custom workflows.
+2025-06-10 20:14:53.850 | INFO     | devchat._service.route.workflows:update_custom_workflows:109 - Read chat config file C:\Users\ADMIN\.chat\config.yml.
+2025-06-10 20:14:53.874 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 127.0.0.1:51946 - "POST /workflows/custom_update HTTP/1.1" 200
+2025-06-10 20:14:56.007 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 127.0.0.1:51992 - "GET /workflows/list HTTP/1.1" 200
+2025-06-10 20:14:56.030 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 127.0.0.1:52004 - "OPTIONS /workflows/update HTTP/1.1" 200
+2025-06-10 20:14:56.087 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 127.0.0.1:52004 - "POST /workflows/update HTTP/1.1" 200
+2025-06-10 20:14:56.097 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 127.0.0.1:52004 - "OPTIONS /workflows/custom_update HTTP/1.1" 200
+2025-06-10 20:14:56.100 | INFO     | devchat._service.route.workflows:update_custom_workflows:103 - Working in update custom workflows.
+2025-06-10 20:14:56.100 | INFO     | devchat._service.route.workflows:update_custom_workflows:109 - Read chat config file C:\Users\ADMIN\.chat\config.yml.
+2025-06-10 20:14:56.131 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 127.0.0.1:52004 - "POST /workflows/custom_update HTTP/1.1" 200
+2025-06-10 20:14:56.146 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 127.0.0.1:52008 - "GET /workflows/config HTTP/1.1" 200
+2025-06-10 20:14:56.251 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 127.0.0.1:52013 - "GET /workflows/list HTTP/1.1" 200
+2025-06-10 20:14:56.290 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 127.0.0.1:52020 - "GET /workflows/config HTTP/1.1" 200

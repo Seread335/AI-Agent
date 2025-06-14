@@ -1,0 +1,25 @@
+models:
+  enabled: ["deepseek", "qwen3", "agentica", "qwen_coder"]
+  default_model: "qwen3"
+  fallback_chain: ["deepseek", "qwen3"]
+
+routing:
+  confidence_threshold: 0.8
+  multi_model_tasks: ["complex_analysis", "code_review", "system_design"]
+  
+performance:
+  max_concurrent_requests: 10
+  timeout_seconds: 30
+  cache_ttl: 3600
+  retry_attempts: 3
+  backoff_factor: 2
+
+security:
+  api_key_header: "X-API-Key"
+  rate_limit_requests: 100
+  rate_limit_period: 3600
+
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "logs/ai_agent.log"
