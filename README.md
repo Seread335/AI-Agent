@@ -2,15 +2,54 @@
 
 A sophisticated AI Agent system that intelligently routes tasks between multiple specialized AI models to provide comprehensive assistance across various domains.
 
+[![GitHub license](https://img.shields.io/github/license/yourusername/ai-agent)](https://github.com/yourusername/ai-agent/blob/main/LICENSE)
+[![Python Version](https://img.shields.io/badge/python-3.9%2B-blue)](https://www.python.org/downloads/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.104.1-green)](https://fastapi.tiangolo.com/)
+
 ## Features
 
-- Multi-model integration and orchestration
-- Intelligent task routing system
-- Advanced response synthesis
-- Real-time streaming support
-- Comprehensive performance monitoring
-- Conversation context management
-- Robust error handling and fallback mechanisms
+- 🤖 Multi-model integration and orchestration
+- 🧠 Intelligent task routing system
+- 🔄 Advanced response synthesis
+- ⚡ Real-time streaming support
+- 📊 Comprehensive performance monitoring
+- 💬 Conversation context management
+- 🛡️ Robust error handling and fallback mechanisms
+
+## Quick Start
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/ai-agent.git
+cd ai-agent
+```
+
+2. Create and activate a virtual environment:
+```bash
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+# or
+.\venv\Scripts\activate   # Windows
+```
+
+3. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+4. Set up environment variables (create a .env file):
+```env
+DEEPSEEK_API_KEY=your_api_key
+QWEN_API_KEY=your_api_key
+AGENTICA_API_KEY=your_api_key
+```
+
+5. Run the application:
+```bash
+uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+```
+
+Visit `http://localhost:8000/docs` for API documentation.
 
 ## Models Integrated
 
