@@ -2,7 +2,7 @@
 
 A sophisticated AI Agent system that intelligently routes tasks between multiple specialized AI models to provide comprehensive assistance across various domains.
 
-[![GitHub license](https://img.shields.io/github/license/yourusername/ai-agent)](https://github.com/yourusername/ai-agent/blob/main/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/Seread335/AI-Agent)](https://github.com/Seread335/AI-Agent/blob/main/LICENSE)
 [![Python Version](https://img.shields.io/badge/python-3.9%2B-blue)](https://www.python.org/downloads/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.104.1-green)](https://fastapi.tiangolo.com/)
 
@@ -143,3 +143,6 @@ The system implements multiple layers of error handling:
 ## License
 
 MIT License
+=======
+# AI-Agent
+>>>>>>> origin/main
